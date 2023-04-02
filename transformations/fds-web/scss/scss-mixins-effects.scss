@@ -1,0 +1,92 @@
+@mixin shadow-new-effect-shadow {
+  box-shadow: var( --rds-effect-new-effect-shadow )
+}
+@mixin shadow-new-effect-37571-blur-radius {
+  box-shadow: var( --rds-effect-new-effect-37571-blur-radius )
+}
+@mixin blur-new-effect-shadow {
+  filter: blur(var( --rds-effect-new-effect-shadow ))
+}
+@mixin blur-new-effect-37571-blur-radius {
+  filter: blur(var( --rds-effect-new-effect-37571-blur-radius ))
+}
+@mixin shadow-sm-new-effect-shadow {
+  @media screen and (min-width: 576px) {
+    box-shadow: var( --rds-effect-new-effect-shadow )
+  }
+}
+@mixin shadow-sm-new-effect-37571-blur-radius {
+  @media screen and (min-width: 576px) {
+    box-shadow: var( --rds-effect-new-effect-37571-blur-radius )
+  }
+}
+@mixin blur-sm-new-effect-shadow {
+  @media screen and (min-width: 576px) {
+    filter: blur(var( --rds-effect-new-effect-shadow ))
+  }
+}
+@mixin blur-sm-new-effect-37571-blur-radius {
+  @media screen and (min-width: 576px) {
+    filter: blur(var( --rds-effect-new-effect-37571-blur-radius ))
+  }
+}
+@mixin shadow-md-new-effect-shadow {
+  @media screen and (min-width: 768px) {
+    box-shadow: var( --rds-effect-new-effect-shadow )
+  }
+}
+@mixin shadow-md-new-effect-37571-blur-radius {
+  @media screen and (min-width: 768px) {
+    box-shadow: var( --rds-effect-new-effect-37571-blur-radius )
+  }
+}
+@mixin blur-md-new-effect-shadow {
+  @media screen and (min-width: 768px) {
+    filter: blur(var( --rds-effect-new-effect-shadow ))
+  }
+}
+@mixin blur-md-new-effect-37571-blur-radius {
+  @media screen and (min-width: 768px) {
+    filter: blur(var( --rds-effect-new-effect-37571-blur-radius ))
+  }
+}
+@mixin shadow-lg-new-effect-shadow {
+  @media screen and (min-width: 992px) {
+    box-shadow: var( --rds-effect-new-effect-shadow )
+  }
+}
+@mixin shadow-lg-new-effect-37571-blur-radius {
+  @media screen and (min-width: 992px) {
+    box-shadow: var( --rds-effect-new-effect-37571-blur-radius )
+  }
+}
+@mixin blur-lg-new-effect-shadow {
+  @media screen and (min-width: 992px) {
+    filter: blur(var( --rds-effect-new-effect-shadow ))
+  }
+}
+@mixin blur-lg-new-effect-37571-blur-radius {
+  @media screen and (min-width: 992px) {
+    filter: blur(var( --rds-effect-new-effect-37571-blur-radius ))
+  }
+}
+@mixin shadow-xlg-new-effect-shadow {
+  @media screen and (min-width: 1200px) {
+    box-shadow: var( --rds-effect-new-effect-shadow )
+  }
+}
+@mixin shadow-xlg-new-effect-37571-blur-radius {
+  @media screen and (min-width: 1200px) {
+    box-shadow: var( --rds-effect-new-effect-37571-blur-radius )
+  }
+}
+@mixin blur-xlg-new-effect-shadow {
+  @media screen and (min-width: 1200px) {
+    filter: blur(var( --rds-effect-new-effect-shadow ))
+  }
+}
+@mixin blur-xlg-new-effect-37571-blur-radius {
+  @media screen and (min-width: 1200px) {
+    filter: blur(var( --rds-effect-new-effect-37571-blur-radius ))
+  }
+}
