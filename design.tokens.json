@@ -1,0 +1,1574 @@
+{
+  "$description": "README Design System (RDS) Design Tokens",
+  "RDS": {
+    "$extensions": {
+      "dsys.level": "sheet",
+      "dsys.prefix": "RDS",
+      "dsys.fullName": "README Design System"
+    },
+    "effect": {
+      "$extensions": {
+        "dsys.level": "group",
+        "dsys.type": "EffectSet",
+        "dsys.nodeIds": []
+      },
+      "$description": "All the effect tokens",
+      "effects": {
+        "$extensions": {
+          "dsys.level": "tokenset",
+          "dsys.type": "EffectSet",
+          "dsys.name": "Effects",
+          "dsys.nodeId": "1:4776"
+        },
+        "$description": "Effects effect tokens",
+        "new-effect": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "new-effect",
+            "dsys.index": 0,
+            "dsys.styleId": "S:8db798ec1b49dd8224521c567b3c02618ccece0a,"
+          },
+          "$value": {
+            "color": "#000000",
+            "alpha": 0.15000000596046448,
+            "blur": 10,
+            "offsetX": 0,
+            "offsetY": 0,
+            "radius": 10,
+            "spread": 0
+          },
+          "$type": "shadow"
+        },
+        "new-effect-37571": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "new-effect-37571",
+            "dsys.index": 1,
+            "dsys.styleId": "S:6240a7d9a6bd417fa935b98e7a783b9bfb9d1341,"
+          },
+          "$value": {
+            "radius": 10
+          },
+          "$type": "blur"
+        }
+      }
+    },
+    "breakpoint": {
+      "$extensions": {
+        "dsys.level": "group",
+        "dsys.type": "BreakpointSet",
+        "dsys.nodeIds": []
+      },
+      "$description": "All the breakpoint tokens",
+      "breakpoints": {
+        "$extensions": {
+          "dsys.level": "tokenset",
+          "dsys.type": "BreakpointSet",
+          "dsys.name": "breakpoints",
+          "dsys.nodeId": "?"
+        },
+        "$description": "a set of custom tokens",
+        "sm": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "sm",
+            "dsys.index": 0,
+            "dsys.uid": "_0_956rt44mcl"
+          },
+          "$type": "breakpoint",
+          "$direction": "up",
+          "$value": 576
+        },
+        "md": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "md",
+            "dsys.index": 1,
+            "dsys.uid": "_1_1z0kzi8f2j7"
+          },
+          "$type": "breakpoint",
+          "$direction": "up",
+          "$value": 768
+        },
+        "lg": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "lg",
+            "dsys.index": 2,
+            "dsys.uid": "_2_18rlzp42vqv"
+          },
+          "$type": "breakpoint",
+          "$direction": "up",
+          "$value": 992
+        },
+        "xlg": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "xlg",
+            "dsys.index": 3,
+            "dsys.uid": "_3_1jgijglmhf"
+          },
+          "$type": "breakpoint",
+          "$direction": "up",
+          "$value": 1200
+        }
+      }
+    },
+    "spacing": {
+      "$extensions": {
+        "dsys.level": "group",
+        "dsys.type": "Spacing",
+        "dsys.nodeIds": []
+      },
+      "$description": "All the spacing tokens",
+      "spacing": {
+        "$extensions": {
+          "dsys.level": "tokenset",
+          "dsys.type": "Spacing",
+          "dsys.name": "spacing",
+          "dsys.nodeId": "?"
+        },
+        "$description": "a set of spacing tokens",
+        "spacing-0": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "spacing-0",
+            "dsys.index": 0,
+            "dsys.uid": "_0_swij3rnjwz"
+          },
+          "$type": "spacing",
+          "$value": 0
+        },
+        "spacing-0-3": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "spacing-0-3",
+            "dsys.index": 1,
+            "dsys.uid": "_1_55cj07xqld"
+          },
+          "$type": "spacing",
+          "$value": 2.5
+        },
+        "spacing-0-6": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "spacing-0-6",
+            "dsys.index": 2,
+            "dsys.uid": "_2_n4u53u8dsn"
+          },
+          "$type": "spacing",
+          "$value": 5
+        },
+        "spacing-0-9": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "spacing-0-9",
+            "dsys.index": 3,
+            "dsys.uid": "_3_r7ee2wn1vv"
+          },
+          "$type": "spacing",
+          "$value": 7.5
+        },
+        "spacing-1": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "spacing-1",
+            "dsys.index": 4,
+            "dsys.uid": "_4_1xgnepj12sf"
+          },
+          "$type": "spacing",
+          "$value": 10
+        },
+        "spacing-1-3": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "spacing-1-3",
+            "dsys.index": 5,
+            "dsys.uid": "_5_1ni0u1fom9j"
+          },
+          "$type": "spacing",
+          "$value": 12.5
+        },
+        "spacing-1-6": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "spacing-1-6",
+            "dsys.index": 6,
+            "dsys.uid": "_6_eumf4bqiez"
+          },
+          "$type": "spacing",
+          "$value": 15
+        },
+        "spacing-1-9": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "spacing-1-9",
+            "dsys.index": 7,
+            "dsys.uid": "_7_24s0lquocdt"
+          },
+          "$type": "spacing",
+          "$value": 17.5
+        },
+        "spacing-2": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "spacing-2",
+            "dsys.index": 8,
+            "dsys.uid": "_8_cd9zny52wz"
+          },
+          "$type": "spacing",
+          "$value": 20
+        },
+        "spacing-3": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "spacing-3",
+            "dsys.index": 9,
+            "dsys.uid": "_9_yvd7bi7fpp"
+          },
+          "$type": "spacing",
+          "$value": 30
+        },
+        "spacing-4": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "spacing-4",
+            "dsys.index": 10,
+            "dsys.uid": "_a_nbihi8ku67"
+          },
+          "$type": "spacing",
+          "$value": 40
+        },
+        "spacing-5": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "spacing-5",
+            "dsys.index": 11,
+            "dsys.uid": "_b_9g9rjxzhnt"
+          },
+          "$type": "spacing",
+          "$value": 50
+        },
+        "spacing-6": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "spacing-6",
+            "dsys.index": 12,
+            "dsys.uid": "_c_23a23e84lst"
+          },
+          "$type": "spacing",
+          "$value": 60
+        },
+        "spacing-7": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "spacing-7",
+            "dsys.index": 13,
+            "dsys.uid": "_d_2d8xs54npmv"
+          },
+          "$type": "spacing",
+          "$value": 70
+        }
+      }
+    },
+    "icon": {
+      "$extensions": {
+        "dsys.level": "group",
+        "dsys.type": "IconSet",
+        "dsys.nodeIds": []
+      },
+      "$description": "All the icon tokens",
+      "icons": {
+        "$extensions": {
+          "dsys.level": "tokenset",
+          "dsys.type": "IconSet",
+          "dsys.name": "Icons",
+          "dsys.nodeId": "1:5648"
+        },
+        "$description": "Icons icon tokens",
+        "contentful-content-type-widget": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "contentful-content-type-widget",
+            "dsys.componentId": "1:5979",
+            "dsys.scale": 0.1,
+            "dsys.offsetX": 0,
+            "dsys.offsetY": 0,
+            "dsys.sizes": [],
+            "dsys.index": 0
+          },
+          "$value": {
+            "svg": "<svg width=\"60\" height=\"60\" viewBox=\"0 0 60 60\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0_1_5979)\">\n<path d=\"M12.8181 30.6544C12.8181 29.2988 13.917 28.1998 15.2727 28.1998H44.7272C46.0828 28.1998 47.1817 29.2988 47.1817 30.6544C47.1817 32.01 46.0828 33.109 44.7272 33.109H15.2727C13.917 33.109 12.8181 32.01 12.8181 30.6544Z\" fill=\"#353739\"/>\n<path d=\"M12.8181 42.3546C12.8181 40.9989 13.917 39.9 15.2727 39.9H44.7272C46.0828 39.9 47.1817 40.9989 47.1817 42.3546C47.1817 43.7101 46.0828 44.809 44.7272 44.809H15.2727C13.917 44.809 12.8181 43.7101 12.8181 42.3546Z\" fill=\"#353739\"/>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 12.8182C3 7.39575 7.39575 3 12.8182 3H47.1818C52.6042 3 57 7.39575 57 12.8182V47.1818C57 52.6042 52.6042 57 47.1818 57H12.8182C7.39575 57 3 52.6042 3 47.1818V12.8182ZM7.90909 21.9V46.7729C7.90909 49.484 10.107 51.6819 12.8182 51.6819H47.1818C49.8931 51.6819 52.091 49.484 52.091 46.7729V21.9H7.90909ZM42.2728 14.209C42.2728 12.8535 43.3717 11.7545 44.7272 11.7545C46.0829 11.7545 47.1818 12.8535 47.1818 14.209C47.1818 15.5646 46.0829 16.6636 44.7272 16.6636C43.3717 16.6636 42.2728 15.5646 42.2728 14.209ZM14.8637 11.7545C13.5081 11.7545 12.4092 12.8535 12.4092 14.209C12.4092 15.5646 13.5081 16.6636 14.8637 16.6636H29.591C30.9466 16.6636 32.0455 15.5646 32.0455 14.209C32.0455 12.8535 30.9466 11.7545 29.591 11.7545H14.8637Z\" fill=\"#353739\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_1_5979\">\n<rect width=\"54\" height=\"54\" fill=\"white\" transform=\"translate(3 3)\"/>\n</clipPath>\n</defs>\n</svg>\n",
+            "sizes": [
+              12,
+              24,
+              32
+            ]
+          },
+          "$type": "svg"
+        },
+        "dam-widget": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "dam-widget",
+            "dsys.componentId": "1:6017",
+            "dsys.scale": 0.1,
+            "dsys.offsetX": 0,
+            "dsys.offsetY": 0,
+            "dsys.sizes": [],
+            "dsys.index": 0
+          },
+          "$value": {
+            "svg": "<svg width=\"60\" height=\"60\" viewBox=\"0 0 60 60\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0_1_6017)\">\n<mask id=\"mask0_1_6017\" style=\"mask-type:luminance\" maskUnits=\"userSpaceOnUse\" x=\"3\" y=\"13\" width=\"54\" height=\"34\">\n<path d=\"M57 13.35H3V46.65H57V13.35Z\" fill=\"white\"/>\n</mask>\n<g mask=\"url(#mask0_1_6017)\">\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M12 13.35C7.02943 13.35 3 17.3794 3 22.35V37.65C3 42.6205 7.02943 46.65 12 46.65H57V13.35H12ZM12.9 17.85C9.91766 17.85 7.5 20.2677 7.5 23.25V36.75C7.5 39.7323 9.91766 42.15 12.9 42.15H52.5V17.85H12.9Z\" fill=\"#353739\"/>\n<path d=\"M12 34.05C12 32.5588 13.2088 31.35 14.7 31.35H46.2C47.6912 31.35 48.9 32.5588 48.9 34.05V35.85C48.9 37.3412 47.6912 38.55 46.2 38.55H14.7C13.2088 38.55 12 37.3412 12 35.85V34.05Z\" fill=\"#353739\"/>\n<path d=\"M12.8999 22.35H32.6999V25.95H12.8999V22.35Z\" fill=\"#353739\"/>\n<path d=\"M48.9 24.15C48.9 26.1382 47.2881 27.75 45.3 27.75C43.3118 27.75 41.7 26.1382 41.7 24.15C41.7 22.1618 43.3118 20.55 45.3 20.55C47.2881 20.55 48.9 22.1618 48.9 24.15Z\" fill=\"#353739\"/>\n</g>\n</g>\n<defs>\n<clipPath id=\"clip0_1_6017\">\n<rect width=\"54\" height=\"33.3\" fill=\"white\" transform=\"translate(3 13.35)\"/>\n</clipPath>\n</defs>\n</svg>\n",
+            "sizes": [
+              12,
+              24,
+              32
+            ]
+          },
+          "$type": "svg"
+        },
+        "fds-widget": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "fds-widget",
+            "dsys.componentId": "1:5998",
+            "dsys.scale": 0.1,
+            "dsys.offsetX": 0,
+            "dsys.offsetY": 0,
+            "dsys.sizes": [],
+            "dsys.index": 0
+          },
+          "$value": {
+            "svg": "<svg width=\"60\" height=\"60\" viewBox=\"0 0 60 60\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0_1_5998)\">\n<path d=\"M13.0764 10.617C13.0764 9.73978 13.7875 9.0287 14.6646 9.0287C15.5418 9.0287 16.2529 9.73978 16.2529 10.617V37.6668C16.2529 38.544 15.5418 39.2551 14.6646 39.2551C13.7875 39.2551 13.0764 38.544 13.0764 37.6668V10.617Z\" fill=\"#353739\"/>\n<path d=\"M28.9087 10.617C28.9087 9.73978 29.6198 9.0287 30.497 9.0287C31.3742 9.0287 32.0852 9.73978 32.0852 10.617V47.7422C32.0852 48.6195 31.3742 49.3306 30.497 49.3306C29.6198 49.3306 28.9087 48.6195 28.9087 47.7422V10.617Z\" fill=\"#353739\"/>\n<path d=\"M43.3018 20.6924C43.3018 19.8152 44.0128 19.1041 44.89 19.1041C45.7671 19.1041 46.4782 19.8152 46.4782 20.6924V37.6668C46.4782 38.544 45.7671 39.2551 44.89 39.2551C44.0128 39.2551 43.3018 38.544 43.3018 37.6668V20.6924Z\" fill=\"#353739\"/>\n<path d=\"M36.3528 37.9149C36.3528 37.0378 37.0639 36.3267 37.941 36.3267H55.4118C56.2889 36.3267 57 37.0378 57 37.9149C57 38.7921 56.2889 39.5032 55.4118 39.5032H37.941C37.0639 39.5032 36.3528 38.7921 36.3528 37.9149Z\" fill=\"#353739\"/>\n<path d=\"M3 37.9646C3 37.0875 3.71108 36.3764 4.58825 36.3764H29.8573C30.7345 36.3764 31.4455 37.0875 31.4455 37.9646C31.4455 38.8418 30.7345 39.5529 29.8573 39.5529H4.58825C3.71108 39.5529 3 38.8418 3 37.9646Z\" fill=\"#353739\"/>\n<path d=\"M3 20.6924C3 19.8152 3.71108 19.1041 4.58825 19.1041H14.3659C15.2431 19.1041 15.9541 19.8152 15.9541 20.6924C15.9541 21.5695 15.2431 22.2806 14.3659 22.2806H4.58825C3.71108 22.2806 3 21.5695 3 20.6924Z\" fill=\"#353739\"/>\n<path d=\"M36.1553 20.6924C36.1553 19.8152 36.8664 19.1041 37.7436 19.1041H44.446C45.3231 19.1041 46.0342 19.8152 46.0342 20.6924C46.0342 21.5695 45.3231 22.2806 44.446 22.2806H37.7436C36.8664 22.2806 36.1553 21.5695 36.1553 20.6924Z\" fill=\"#353739\"/>\n<path d=\"M20.2744 20.6924C20.2744 19.8152 20.9855 19.1041 21.8626 19.1041H30.1534C31.0305 19.1041 31.7416 19.8152 31.7416 20.6924C31.7416 21.5695 31.0305 22.2806 30.1534 22.2806H21.8626C20.9855 22.2806 20.2744 21.5695 20.2744 20.6924Z\" fill=\"#353739\"/>\n<path d=\"M3 29.3285C3 28.4514 3.71108 27.7403 4.58825 27.7403H14.3659C15.2431 27.7403 15.9541 28.4514 15.9541 29.3285C15.9541 30.2057 15.2431 30.9167 14.3659 30.9167H4.58825C3.71108 30.9167 3 30.2057 3 29.3285Z\" fill=\"#353739\"/>\n<path d=\"M29.7512 29.3285C29.7512 28.4514 30.4623 27.7403 31.3395 27.7403H54.6708C55.548 27.7403 56.2591 28.4514 56.2591 29.3285C56.2591 30.2057 55.548 30.9167 54.6708 30.9167H31.3395C30.4623 30.9167 29.7512 30.2057 29.7512 29.3285Z\" fill=\"#353739\"/>\n<path d=\"M20.2744 29.3285C20.2744 28.4514 20.9855 27.7403 21.8626 27.7403H30.201C31.0782 27.7403 31.7892 28.4514 31.7892 29.3285C31.7892 30.2057 31.0782 30.9167 30.201 30.9167H21.8626C20.9855 30.9167 20.2744 30.2057 20.2744 29.3285Z\" fill=\"#353739\"/>\n<path d=\"M35.2609 48.3379C35.2609 50.9694 33.1276 53.1025 30.4961 53.1025C27.8647 53.1025 25.7314 50.9694 25.7314 48.3379C25.7314 45.7063 27.8647 43.5731 30.4961 43.5731C33.1276 43.5731 35.2609 45.7063 35.2609 48.3379Z\" fill=\"#353739\"/>\n<path d=\"M19.8774 10.9147C19.8774 13.5462 17.7441 15.6795 15.1126 15.6795C12.4811 15.6795 10.3479 13.5462 10.3479 10.9147C10.3479 8.28325 12.4811 6.14999 15.1126 6.14999C17.7441 6.14999 19.8774 8.28325 19.8774 10.9147Z\" fill=\"#353739\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_1_5998\">\n<rect width=\"54\" height=\"47.7\" fill=\"white\" transform=\"translate(3 6.14999)\"/>\n</clipPath>\n</defs>\n</svg>\n",
+            "sizes": [
+              12,
+              24,
+              32
+            ]
+          },
+          "$type": "svg"
+        },
+        "presentation-deck-widget": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "presentation-deck-widget",
+            "dsys.componentId": "1:6005",
+            "dsys.scale": 0.1,
+            "dsys.offsetX": 0,
+            "dsys.offsetY": 0,
+            "dsys.sizes": [],
+            "dsys.index": 0
+          },
+          "$value": {
+            "svg": "<svg width=\"60\" height=\"60\" viewBox=\"0 0 60 60\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0_1_6005)\">\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M6.6 11.1C4.61177 11.1 3 12.7118 3 14.7V45.3C3 47.2882 4.61177 48.9 6.6 48.9H53.4C55.3882 48.9 57 47.2882 57 45.3V14.7C57 12.7118 55.3882 11.1 53.4 11.1H6.6ZM8.4 14.7C7.40589 14.7 6.6 15.5059 6.6 16.5V43.5C6.6 44.4941 7.40589 45.3 8.4 45.3H51.6C52.5941 45.3 53.4 44.4941 53.4 43.5V16.5C53.4 15.5059 52.5941 14.7 51.6 14.7H8.4Z\" fill=\"#353739\"/>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M41.6999 17.4C40.7058 17.4 39.8999 18.2059 39.8999 19.2V40.8C39.8999 41.7941 40.7058 42.6 41.6999 42.6H48.8999C49.894 42.6 50.6999 41.7941 50.6999 40.8V19.2C50.6999 18.2059 49.894 17.4 48.8999 17.4H41.6999ZM45.2999 21C44.3058 21 43.4999 21.8059 43.4999 22.8V37.2C43.4999 38.1941 44.3058 39 45.2999 39C46.294 39 47.0999 38.1941 47.0999 37.2V22.8C47.0999 21.8059 46.294 21 45.2999 21Z\" fill=\"#353739\"/>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M11.1 17.4C10.1059 17.4 9.30005 18.2059 9.30005 19.2V40.8C9.30005 41.7941 10.1059 42.6 11.1 42.6H35.4C36.3942 42.6 37.2 41.7941 37.2 40.8V19.2C37.2 18.2059 36.3942 17.4 35.4 17.4H11.1ZM14.7 21C13.7059 21 12.9 21.8059 12.9 22.8V37.2C12.9 38.1941 13.7059 39 14.7 39H31.8C32.7942 39 33.6 38.1941 33.6 37.2V22.8C33.6 21.8059 32.7942 21 31.8 21H14.7Z\" fill=\"#353739\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_1_6005\">\n<rect width=\"54\" height=\"37.8\" fill=\"white\" transform=\"translate(3 11.1)\"/>\n</clipPath>\n</defs>\n</svg>\n",
+            "sizes": [
+              12,
+              24,
+              32
+            ]
+          },
+          "$type": "svg"
+        }
+      }
+    },
+    "component": {
+      "$extensions": {
+        "dsys.level": "group",
+        "dsys.type": "ComponentSet",
+        "dsys.nodeIds": []
+      },
+      "$description": "All the component tokens",
+      "my-button": {
+        "$extensions": {
+          "dsys.level": "tokenset",
+          "dsys.type": "ComponentSet",
+          "dsys.name": "my-button",
+          "dsys.nodeId": "?"
+        },
+        "$description": "a component token",
+        "component": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "my-button",
+            "dsys.index": 0
+          },
+          "$type": "component",
+          "$value": "1:5647"
+        }
+      }
+    },
+    "type": {
+      "$extensions": {
+        "dsys.level": "group",
+        "dsys.type": "TypographySet",
+        "dsys.nodeIds": []
+      },
+      "$description": "All the type tokens",
+      "text": {
+        "$extensions": {
+          "dsys.level": "tokenset",
+          "dsys.type": "TypographySet",
+          "dsys.name": "text",
+          "dsys.nodeId": "1:3570"
+        },
+        "$description": "text typography tokens",
+        "text-10": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "text-10",
+            "dsys.index": 0,
+            "dsys.styleId": "S:49bcc6ecc34d479dfbd35755ead53ce0feec8f45,"
+          },
+          "$value": {
+            "fontFamily": "Open Sans",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "Open Sans",
+              "style": "Regular"
+            },
+            "fontWeight": 400,
+            "fontSize": 29,
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "listSpacing": 0,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "ORIGINAL",
+            "textDecoration": "NONE"
+          },
+          "$type": "typography"
+        },
+        "text-9": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "text-9",
+            "dsys.index": 1,
+            "dsys.styleId": "S:bab3a48e35d8f5735bd66118d8650fdad902df0a,"
+          },
+          "$value": {
+            "fontFamily": "Open Sans",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "Open Sans",
+              "style": "Regular"
+            },
+            "fontWeight": 400,
+            "fontSize": 24,
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "listSpacing": 0,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "ORIGINAL",
+            "textDecoration": "NONE"
+          },
+          "$type": "typography"
+        },
+        "text-8": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "text-8",
+            "dsys.index": 2,
+            "dsys.styleId": "S:e76bebb8ae1cdfbe384a637b034246d3b5c96cc1,"
+          },
+          "$value": {
+            "fontFamily": "Open Sans",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "Open Sans",
+              "style": "Regular"
+            },
+            "fontWeight": 400,
+            "fontSize": 21,
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "listSpacing": 0,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "ORIGINAL",
+            "textDecoration": "NONE"
+          },
+          "$type": "typography"
+        },
+        "text-7": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "text-7",
+            "dsys.index": 3,
+            "dsys.styleId": "S:352878dfd130ee9d46b0e7b46c1a1dc3cb819471,"
+          },
+          "$value": {
+            "fontFamily": "Open Sans",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "Open Sans",
+              "style": "Regular"
+            },
+            "fontWeight": 400,
+            "fontSize": 19,
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "listSpacing": 0,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "ORIGINAL",
+            "textDecoration": "NONE"
+          },
+          "$type": "typography"
+        },
+        "text-6": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "text-6",
+            "dsys.index": 4,
+            "dsys.styleId": "S:173b9b4785a899681392aeaf548dc6a2ea57026c,"
+          },
+          "$value": {
+            "fontFamily": "Open Sans",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "Open Sans",
+              "style": "Regular"
+            },
+            "fontWeight": 400,
+            "fontSize": 17,
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "listSpacing": 0,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "ORIGINAL",
+            "textDecoration": "NONE"
+          },
+          "$type": "typography"
+        },
+        "text-5": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "text-5",
+            "dsys.index": 5,
+            "dsys.styleId": "S:69a5b78e841f1b56bd250e52d5f868df57532f89,"
+          },
+          "$value": {
+            "fontFamily": "Open Sans",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "Open Sans",
+              "style": "Regular"
+            },
+            "fontWeight": 400,
+            "fontSize": 16,
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "listSpacing": 0,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "ORIGINAL",
+            "textDecoration": "NONE"
+          },
+          "$type": "typography"
+        },
+        "text": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "text",
+            "dsys.index": 6,
+            "dsys.styleId": "S:e9a67ed6e465b4ceb44e2c5634c8b40464ab4fad,"
+          },
+          "$value": {
+            "fontFamily": "Open Sans",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "Open Sans",
+              "style": "Regular"
+            },
+            "fontWeight": 400,
+            "fontSize": 16,
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "listSpacing": 0,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "ORIGINAL",
+            "textDecoration": "NONE"
+          },
+          "$type": "typography"
+        },
+        "text-4": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "text-4",
+            "dsys.index": 7,
+            "dsys.styleId": "S:fb67f2d2be34f6e67242ffdfb427a8e286af497d,"
+          },
+          "$value": {
+            "fontFamily": "Open Sans",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "Open Sans",
+              "style": "Regular"
+            },
+            "fontWeight": 400,
+            "fontSize": 15,
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "listSpacing": 0,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "ORIGINAL",
+            "textDecoration": "NONE"
+          },
+          "$type": "typography"
+        },
+        "text-3": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "text-3",
+            "dsys.index": 8,
+            "dsys.styleId": "S:eaebdb52d0c3848761e1187f3e7331afb951f80b,"
+          },
+          "$value": {
+            "fontFamily": "Open Sans",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "Open Sans",
+              "style": "Regular"
+            },
+            "fontWeight": 400,
+            "fontSize": 14,
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "listSpacing": 0,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "ORIGINAL",
+            "textDecoration": "NONE"
+          },
+          "$type": "typography"
+        },
+        "text-2": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "text-2",
+            "dsys.index": 9,
+            "dsys.styleId": "S:4f6d97d9256e2d248e9b1946f9a888778ab37e2d,"
+          },
+          "$value": {
+            "fontFamily": "Open Sans",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "Open Sans",
+              "style": "Regular"
+            },
+            "fontWeight": 400,
+            "fontSize": 12,
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "listSpacing": 0,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "ORIGINAL",
+            "textDecoration": "NONE"
+          },
+          "$type": "typography"
+        },
+        "text-1": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "text-1",
+            "dsys.index": 10,
+            "dsys.styleId": "S:8f176c8e76ca92b1566deb6e39edaea18ef27a6c,"
+          },
+          "$value": {
+            "fontFamily": "Open Sans",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "Open Sans",
+              "style": "Regular"
+            },
+            "fontWeight": 400,
+            "fontSize": 11,
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "listSpacing": 0,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "ORIGINAL",
+            "textDecoration": "NONE"
+          },
+          "$type": "typography"
+        }
+      },
+      "text-bold": {
+        "$extensions": {
+          "dsys.level": "tokenset",
+          "dsys.type": "TypographySet",
+          "dsys.name": "text-bold",
+          "dsys.nodeId": "1:3998"
+        },
+        "$description": "text-bold typography tokens",
+        "text-bold-10": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "text-bold-10",
+            "dsys.index": 0,
+            "dsys.styleId": "S:6d67466b678d9caa9ca994b8a85ba5a6de90905a,"
+          },
+          "$value": {
+            "fontFamily": "Open Sans",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "Open Sans",
+              "style": "SemiBold"
+            },
+            "fontWeight": 600,
+            "fontSize": 29,
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "listSpacing": 0,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "ORIGINAL",
+            "textDecoration": "NONE"
+          },
+          "$type": "typography"
+        },
+        "text-bold-9": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "text-bold-9",
+            "dsys.index": 1,
+            "dsys.styleId": "S:70891a3f96c69c9e21598d01c15c479861afb79d,"
+          },
+          "$value": {
+            "fontFamily": "Open Sans",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "Open Sans",
+              "style": "SemiBold"
+            },
+            "fontWeight": 600,
+            "fontSize": 24,
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "listSpacing": 0,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "ORIGINAL",
+            "textDecoration": "NONE"
+          },
+          "$type": "typography"
+        },
+        "text-bold-8": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "text-bold-8",
+            "dsys.index": 2,
+            "dsys.styleId": "S:fe63d028405785d2250755225fa8753a66454d4b,"
+          },
+          "$value": {
+            "fontFamily": "Open Sans",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "Open Sans",
+              "style": "SemiBold"
+            },
+            "fontWeight": 600,
+            "fontSize": 21,
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "listSpacing": 0,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "ORIGINAL",
+            "textDecoration": "NONE"
+          },
+          "$type": "typography"
+        },
+        "text-bold-7": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "text-bold-7",
+            "dsys.index": 3,
+            "dsys.styleId": "S:209dab366690e8063947af4595f4408131c67789,"
+          },
+          "$value": {
+            "fontFamily": "Open Sans",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "Open Sans",
+              "style": "SemiBold"
+            },
+            "fontWeight": 600,
+            "fontSize": 19,
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "listSpacing": 0,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "ORIGINAL",
+            "textDecoration": "NONE"
+          },
+          "$type": "typography"
+        },
+        "text-bold-6": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "text-bold-6",
+            "dsys.index": 4,
+            "dsys.styleId": "S:00348e099d6c81ac2be7572893d5a79caed1d286,"
+          },
+          "$value": {
+            "fontFamily": "Open Sans",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "Open Sans",
+              "style": "SemiBold"
+            },
+            "fontWeight": 600,
+            "fontSize": 17,
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "listSpacing": 0,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "ORIGINAL",
+            "textDecoration": "NONE"
+          },
+          "$type": "typography"
+        },
+        "text-bold-5": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "text-bold-5",
+            "dsys.index": 5,
+            "dsys.styleId": "S:d2e586a8232ed8e0dc7e1f2d17380014eaa734ba,"
+          },
+          "$value": {
+            "fontFamily": "Open Sans",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "Open Sans",
+              "style": "SemiBold"
+            },
+            "fontWeight": 600,
+            "fontSize": 16,
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "listSpacing": 0,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "ORIGINAL",
+            "textDecoration": "NONE"
+          },
+          "$type": "typography"
+        },
+        "text-bold": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "text-bold",
+            "dsys.index": 6,
+            "dsys.styleId": "S:bb7cf2ad6b9921187e5e55a5f103d8ff57dcf083,"
+          },
+          "$value": {
+            "fontFamily": "Open Sans",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "Open Sans",
+              "style": "SemiBold"
+            },
+            "fontWeight": 600,
+            "fontSize": 16,
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "listSpacing": 0,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "ORIGINAL",
+            "textDecoration": "NONE"
+          },
+          "$type": "typography"
+        },
+        "text-bold-4": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "text-bold-4",
+            "dsys.index": 7,
+            "dsys.styleId": "S:329ad34181ce1fbcba996010bdaaa30a694916d0,"
+          },
+          "$value": {
+            "fontFamily": "Open Sans",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "Open Sans",
+              "style": "SemiBold"
+            },
+            "fontWeight": 600,
+            "fontSize": 15,
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "listSpacing": 0,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "ORIGINAL",
+            "textDecoration": "NONE"
+          },
+          "$type": "typography"
+        },
+        "text-bold-3": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "text-bold-3",
+            "dsys.index": 8,
+            "dsys.styleId": "S:9ed525052fdc10463dc4b29199703d29d88fadcc,"
+          },
+          "$value": {
+            "fontFamily": "Open Sans",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "Open Sans",
+              "style": "SemiBold"
+            },
+            "fontWeight": 600,
+            "fontSize": 14,
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "listSpacing": 0,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "ORIGINAL",
+            "textDecoration": "NONE"
+          },
+          "$type": "typography"
+        },
+        "text-bold-2": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "text-bold-2",
+            "dsys.index": 9,
+            "dsys.styleId": "S:ac1375b316088ce46b3cfd4387550859af688716,"
+          },
+          "$value": {
+            "fontFamily": "Open Sans",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "Open Sans",
+              "style": "SemiBold"
+            },
+            "fontWeight": 600,
+            "fontSize": 12,
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "listSpacing": 0,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "ORIGINAL",
+            "textDecoration": "NONE"
+          },
+          "$type": "typography"
+        },
+        "text-bold-1": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "text-bold-1",
+            "dsys.index": 10,
+            "dsys.styleId": "S:02256a3aa44c9c91d2139fbd84122320134611ee,"
+          },
+          "$value": {
+            "fontFamily": "Open Sans",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "Open Sans",
+              "style": "SemiBold"
+            },
+            "fontWeight": 600,
+            "fontSize": 11,
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "listSpacing": 0,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "ORIGINAL",
+            "textDecoration": "NONE"
+          },
+          "$type": "typography"
+        }
+      }
+    },
+    "color": {
+      "$extensions": {
+        "dsys.level": "group",
+        "dsys.type": "ColorSet",
+        "dsys.nodeIds": []
+      },
+      "$description": "All the color tokens",
+      "primary": {
+        "$extensions": {
+          "dsys.level": "tokenset",
+          "dsys.type": "ColorSet",
+          "dsys.name": "Primary",
+          "dsys.nodeId": "1:1842"
+        },
+        "$description": "Primary color tokens",
+        "Primary-1": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Primary-1",
+            "dsys.index": 0,
+            "dsys.styleId": "S:27baa261a276972912983b1842a586304c2c42e4,"
+          },
+          "$value": {
+            "hex": "#26005c",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "Primary-2": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Primary-2",
+            "dsys.index": 1,
+            "dsys.styleId": "S:90d9dc2902466f2e9a4a666494787c27f01490c4,"
+          },
+          "$value": {
+            "hex": "#430e8c",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "Primary-3": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Primary-3",
+            "dsys.index": 2,
+            "dsys.styleId": "S:2f1b0ec22642c1d9117324322eb0bd91415812ff,"
+          },
+          "$value": {
+            "hex": "#5d21b0",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "Primary-4": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Primary-4",
+            "dsys.index": 3,
+            "dsys.styleId": "S:0d4d745f3466d2c2b7cd9d627cd8c3cf69c12ee1,"
+          },
+          "$value": {
+            "hex": "#7639cc",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "Primary-5": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Primary-5",
+            "dsys.index": 4,
+            "dsys.styleId": "S:5db49cc6d1c240c9b999eebdfcda25ab87bf0eb2,"
+          },
+          "$value": {
+            "hex": "#8f55e0",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "Primary": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Primary",
+            "dsys.index": 5,
+            "dsys.styleId": "S:585bc56c5ca9f596abd288f62040a354d6386e12,"
+          },
+          "$value": {
+            "hex": "#8f55e0",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "Primary-6": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Primary-6",
+            "dsys.index": 6,
+            "dsys.styleId": "S:777925ae97f7c00f805170567d96f3f2334c5f9e,"
+          },
+          "$value": {
+            "hex": "#a572ed",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "Primary-7": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Primary-7",
+            "dsys.index": 7,
+            "dsys.styleId": "S:ec9e0908d95cba9c29077ad84d6123543ddf2088,"
+          },
+          "$value": {
+            "hex": "#bc92f7",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "Primary-8": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Primary-8",
+            "dsys.index": 8,
+            "dsys.styleId": "S:cdef95767d4c0351082162f4a44f42e796b33a79,"
+          },
+          "$value": {
+            "hex": "#cdacfc",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "Primary-9": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Primary-9",
+            "dsys.index": 9,
+            "dsys.styleId": "S:b9b2606aa2baf808b19cb227c79d7ccb5ae4760d,"
+          },
+          "$value": {
+            "hex": "#e1ccff",
+            "alpha": 1
+          },
+          "$type": "color"
+        }
+      },
+      "grey": {
+        "$extensions": {
+          "dsys.level": "tokenset",
+          "dsys.type": "ColorSet",
+          "dsys.name": "Grey",
+          "dsys.nodeId": "1:2392"
+        },
+        "$description": "Grey color tokens",
+        "Grey-0": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Grey-0",
+            "dsys.index": 0,
+            "dsys.styleId": "S:667916212ca7d3f437638d465a19581180476105,"
+          },
+          "$value": {
+            "hex": "#000000",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "Grey-1": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Grey-1",
+            "dsys.index": 1,
+            "dsys.styleId": "S:1e689ae33a7810df279212f3add591902aa177a2,"
+          },
+          "$value": {
+            "hex": "#171618",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "Grey-2": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Grey-2",
+            "dsys.index": 2,
+            "dsys.styleId": "S:6b00ec09fa9d3d72f9fdbd37df559fc9fb817277,"
+          },
+          "$value": {
+            "hex": "#2e2c30",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "Grey-3": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Grey-3",
+            "dsys.index": 3,
+            "dsys.styleId": "S:37b1946673beb43385c7405cab7317813a7211cc,"
+          },
+          "$value": {
+            "hex": "#454248",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "Grey-4": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Grey-4",
+            "dsys.index": 4,
+            "dsys.styleId": "S:28e96a1d7982bdb4f0a172a2ecf3fb9898392080,"
+          },
+          "$value": {
+            "hex": "#5c5960",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "Grey-5": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Grey-5",
+            "dsys.index": 5,
+            "dsys.styleId": "S:9ec5d3ab32497f231b410fe84eff73520e1d6934,"
+          },
+          "$value": {
+            "hex": "#747178",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "Grey": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Grey",
+            "dsys.index": 6,
+            "dsys.styleId": "S:4c6ae21d0d7676563ad31b19196922d4d03cc36a,"
+          },
+          "$value": {
+            "hex": "#747178",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "Grey-6": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Grey-6",
+            "dsys.index": 7,
+            "dsys.styleId": "S:edb841dd2683499a7eda7bbd4e5f7a9e6274f146,"
+          },
+          "$value": {
+            "hex": "#8f8c93",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "Grey-7": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Grey-7",
+            "dsys.index": 8,
+            "dsys.styleId": "S:cbc3e12c02e4989a77105d3b605983706c137f48,"
+          },
+          "$value": {
+            "hex": "#aaa8ae",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "Grey-8": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Grey-8",
+            "dsys.index": 9,
+            "dsys.styleId": "S:80dec55310e026e3c417eeed0db016ae13fc11e7,"
+          },
+          "$value": {
+            "hex": "#c6c4c9",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "Grey-9": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Grey-9",
+            "dsys.index": 10,
+            "dsys.styleId": "S:b3562ef7a73661594e2c5599eddb305dc85ea6e4,"
+          },
+          "$value": {
+            "hex": "#e2e1e4",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "Grey-95": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Grey-95",
+            "dsys.index": 11,
+            "dsys.styleId": "S:b8faa940c7649b41a568bf760d18f0a2c164d4d5,"
+          },
+          "$value": {
+            "hex": "#f2f2f2",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "Grey-10": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Grey-10",
+            "dsys.index": 12,
+            "dsys.styleId": "S:59fed74ce861d1972619e979f933d2c64091287e,"
+          },
+          "$value": {
+            "hex": "#ffffff",
+            "alpha": 1
+          },
+          "$type": "color"
+        }
+      },
+      "secondary": {
+        "$extensions": {
+          "dsys.level": "tokenset",
+          "dsys.type": "ColorSet",
+          "dsys.name": "Secondary",
+          "dsys.nodeId": "1:2920"
+        },
+        "$description": "Secondary color tokens",
+        "Secondary-1": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Secondary-1",
+            "dsys.index": 0,
+            "dsys.styleId": "S:894eebc40c52961185b6866cfd42c71479214afe,"
+          },
+          "$value": {
+            "hex": "#00365c",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "Secondary-2": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Secondary-2",
+            "dsys.index": 1,
+            "dsys.styleId": "S:dbe0c1e4be618188acdafc07c5adf84fd5472d6f,"
+          },
+          "$value": {
+            "hex": "#044778",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "Secondary-3": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Secondary-3",
+            "dsys.index": 2,
+            "dsys.styleId": "S:618c47d4f94ae86c703b2e2b31c7f6451cae2c98,"
+          },
+          "$value": {
+            "hex": "#095c96",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "Secondary-4": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Secondary-4",
+            "dsys.index": 3,
+            "dsys.styleId": "S:efce46cff2af02ebedb24373d292acb7d9b83155,"
+          },
+          "$value": {
+            "hex": "#126eb0",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "Secondary-5": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Secondary-5",
+            "dsys.index": 4,
+            "dsys.styleId": "S:244e43c31320d81abd9b73732ee6a1c95293f933,"
+          },
+          "$value": {
+            "hex": "#1b7bbf",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "Secondary": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Secondary",
+            "dsys.index": 5,
+            "dsys.styleId": "S:32dbc3b62b179a479d8ffcc25e9fabe3bacb41c1,"
+          },
+          "$value": {
+            "hex": "#1b7bbf",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "Secondary-6": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Secondary-6",
+            "dsys.index": 6,
+            "dsys.styleId": "S:7637d762514644ab4509e5860fcbc170c80891f5,"
+          },
+          "$value": {
+            "hex": "#3894d6",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "Secondary-7": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Secondary-7",
+            "dsys.index": 7,
+            "dsys.styleId": "S:a8ad6fa67e101148e33fc99d90fe04a86c989f8a,"
+          },
+          "$value": {
+            "hex": "#5cace6",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "Secondary-8": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Secondary-8",
+            "dsys.index": 8,
+            "dsys.styleId": "S:06082a15d24b1ff59fec35cf4670a3290ae9d9b7,"
+          },
+          "$value": {
+            "hex": "#8fccf7",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "Secondary-9": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Secondary-9",
+            "dsys.index": 9,
+            "dsys.styleId": "S:cd9f355037d96484bc8a8081d4b7890822a5b1c3,"
+          },
+          "$value": {
+            "hex": "#cceaff",
+            "alpha": 1
+          },
+          "$type": "color"
+        }
+      }
+    }
+  }
+}
