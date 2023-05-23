@@ -50,6 +50,9 @@ const template = document.createElement('template');
         case 'presentation-deck-widget' :
           svg = await import('./icons/presentation-deck-widget.js');
           break;
+        case 'whatsapp' :
+          svg = await import('./icons/whatsapp.js');
+          break;
       }
       if (svg) {
         this.shadowRoot.querySelector(
