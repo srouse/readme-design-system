@@ -1161,7 +1161,7 @@
           "dsys.level": "tokenset",
           "dsys.type": "ColorSet",
           "dsys.name": "Primary",
-          "dsys.nodeId": "111:377"
+          "dsys.nodeId": "209:3215"
         },
         "$description": "Primary color tokens",
         "Primary-1": {
@@ -1211,7 +1211,7 @@
             "dsys.styleId": "S:29ee886cb39dd241be6d99231b0899d50ca58f19,"
           },
           "$value": {
-            "hex": "#8539cc",
+            "hex": "#8638cf",
             "alpha": 1
           },
           "$type": "color"
@@ -1224,7 +1224,7 @@
             "dsys.styleId": "S:7a04331ea0f52c22a295fa5f1934077c4c121a27,"
           },
           "$value": {
-            "hex": "#9d55e0",
+            "hex": "#9c4fe3",
             "alpha": 1
           },
           "$type": "color"
@@ -1237,7 +1237,7 @@
             "dsys.styleId": "S:032aa1000c1ff8ad9881df3fafcd00802b0f791a,"
           },
           "$value": {
-            "hex": "#9d55e0",
+            "hex": "#9c4fe3",
             "alpha": 1
           },
           "$type": "color"
@@ -1250,7 +1250,7 @@
             "dsys.styleId": "S:9300041457edb0bfe7bfab9e6cce4faaba07b9b6,"
           },
           "$value": {
-            "hex": "#b272ed",
+            "hex": "#b26df2",
             "alpha": 1
           },
           "$type": "color"
@@ -1263,7 +1263,7 @@
             "dsys.styleId": "S:7522b40f37c275b727b4dbfa48eed7f1adae8353,"
           },
           "$value": {
-            "hex": "#c692f7",
+            "hex": "#c58cfa",
             "alpha": 1
           },
           "$type": "color"
